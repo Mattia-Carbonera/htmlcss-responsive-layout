@@ -1,16 +1,37 @@
 /* # RESET */
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* # UTILS */
-  
-  .container {
-    margin: 0 auto;
-    padding: 0 10px;
-    width: 1000px;
-    max-width: 100%;
-  }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* # UTILS */
+
+.container {
+  margin: 0 auto;
+  padding: 0 10px;
+  max-width: 100%;
+}
+
+/* ________ HEADER ________ */
+
+header > h1 {
+  font-family: "Nerko One", cursive;
+  color: #ff9614;
+  font-size: 3rem;
+
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* ________ MAIN ________ */
+
+main > .container {
+  background-color: #f6f5f3;
+
+  /* debug */
+  min-height: 300px;
+}
+
+/* ________ FOOTER ________ */
