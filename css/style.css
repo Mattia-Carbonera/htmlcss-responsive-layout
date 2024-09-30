@@ -15,6 +15,10 @@
   font-family: "Montserrat", "Helvetica Neue", sans-serif;
 }
 
+iframe {
+  display: block;
+}
+
 /* ________ HEADER ________ */
 
 header > h1 {
@@ -24,6 +28,8 @@ header > h1 {
 
   text-align: center;
   padding: 10px 0;
+
+  text-shadow: 5px 5px 5px lightgray;
 }
 
 /* ________ MAIN ________ */
@@ -32,8 +38,12 @@ main > .container {
   background-color: #f6f5f3;
 }
 
+.hero {
+}
+
 .hero-description {
   background-color: white;
+  box-shadow: 2px 2px 2px 2px lightgray;
 }
 
 iframe {
@@ -93,7 +103,7 @@ li {
   display: flex;
   justify-content: space-between;
 
-  padding: 20px 10px;
+  padding: 0px 10px;
 }
 
 .icon span {
