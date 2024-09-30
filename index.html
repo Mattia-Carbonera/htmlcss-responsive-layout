@@ -18,6 +18,14 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- stylesheet -->
     <link rel="stylesheet" href="./css/style.css" />
   </head>
@@ -31,39 +39,53 @@
           <div class="hero-header">
             <span>DOLCI E DESSERT</span>
             <h2>Tiramisù</h2>
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/JVT900H6s0g?si=7xTd_kUjcFgLAFnt"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>
-            <div class="hero-footer">
-              <span>In breve</span>
-              <ul>
-                <li>Difficoltà:<span>facile</span></li>
-                <li>Tempo:<span>40 min</span></li>
-                <li>Porzione per: <span>8 persone</span></li>
-                <li>Costo:<span>Contenuto</span></li>
-                <li><span>Note</span>: +2 ore di riposo in frigo</li>
-              </ul>
+            <div class="hero-description">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/JVT900H6s0g?si=7xTd_kUjcFgLAFnt"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+              <div class="hero-footer">
+                <h3>In breve</h3>
+                <ul>
+                  <li>Difficoltà:<span> facile</span></li>
+                  <li>Tempo:<span> 40 min</span></li>
+                  <li>Porzione per:<span> 8 persone</span></li>
+                  <li>Costo:<span> Contenuto</span></li>
+                  <li><span>Note</span>: +2 ore di riposo in frigo</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
         <div class="icon">
-          <span>fb</span>
-          <span>x</span>
-          <span>insta</span>
-          <span>pinte</span>
-          <span>yt</span>
+          <span
+            ><i class="fa-brands fa-facebook" style="color: #0042aa"></i
+          ></span>
+          <span
+            ><i class="fa-brands fa-twitter" style="color: #74c0fc"></i
+          ></span>
+          <span
+            ><i class="fa-brands fa-instagram" style="color: #e32400"></i
+          ></span>
+          <span
+            ><i class="fa-brands fa-pinterest" style="color: #e32400"></i
+          ></span>
+          <span
+            ><i class="fa-brands fa-youtube" style="color: #e32400"></i
+          ></span>
         </div>
         <div class="presentation">
           <h2>PRESENTATION</h2>
           <hr />
-          <img src="./img/tiramisu.jpg" alt="Tiramisù" />
+          <div class="image">
+            <img src="./img/tiramisu.jpg" alt="Tiramisù" />
+          </div>
           <p>
             Back in the day, grandmothers used to prepare a breakfast that we
             might call humble today, but was considered very rich at the time!
@@ -87,15 +109,19 @@
       </div>
     </main>
     <footer>
-      <span>(inserire (c))2021 Giallo Booleano S.p.a.</span>
-      <span>Via Tal dei tali. 10 - 88046 Lamezia Terme - VAT 43940293020</span>
-      <ul>
-        <li>About us</li>
-        <li>Terms of use</li>
-        <li>Privacy Policy</li>
-        <li>Cookie Policy</li>
-        <li>Disclaimer</li>
-      </ul>
+      <div class="footer">
+        <span>&copy;2021 Giallo Booleano S.p.a.</span>
+        <span
+          >Via Tal dei tali. 10 - 88046 Lamezia Terme - VAT 43940293020</span
+        >
+        <ul>
+          <li><a href="">About us</a></li>
+          <li><a href="">Terms of use</a></li>
+          <li><a href="">Privacy Policy</a></li>
+          <li><a href="">Cookie Policy</a></li>
+          <li><a href="">Disclaimer</a></li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>

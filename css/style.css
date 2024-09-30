@@ -12,6 +12,7 @@
   margin: 0 auto;
   padding: 0 10px;
   max-width: 100%;
+  font-family: "Montserrat", "Helvetica Neue", sans-serif;
 }
 
 /* ________ HEADER ________ */
@@ -31,6 +32,10 @@ main > .container {
   background-color: #f6f5f3;
 }
 
+.hero-description {
+  background-color: white;
+}
+
 iframe {
   max-width: 100%;
 }
@@ -39,4 +44,114 @@ li {
   list-style: none;
 }
 
+/* *** hero header *** */
+
+.hero-header {
+  padding: 20px 10px;
+}
+
+.hero-header > h2 {
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+.hero-header > span {
+  color: lightgray;
+  font-size: 0.9rem;
+}
+
+.hero-header > h2 {
+  color: #4e3969;
+}
+
+/* *** hero footer *** */
+
+.hero-footer {
+  padding: 30px 20px;
+}
+
+.hero-footer > h3 {
+  padding-bottom: 20px;
+}
+
+.hero-footer li {
+  padding-bottom: 10px;
+}
+
+.hero-footer li {
+  font-size: 0.9rem;
+}
+
+.hero-footer li span {
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+/* *** icon *** */
+
+.icon {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 20px 10px;
+}
+
+.icon span {
+  background-color: white;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+/* *** presentation *** */
+
+.presentation {
+  padding: 20px 10px;
+}
+
+.presentation > hr {
+  max-width: 15%;
+  margin: 15px 0;
+
+  color: #f6a246;
+}
+
+.image {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.presentation > .image > img {
+  max-width: 70%;
+}
+
 /* ________ FOOTER ________ */
+
+footer {
+  background-color: #7c69a4;
+  color: white;
+
+  text-align: center;
+}
+
+.footer {
+  padding: 30px 30px;
+}
+
+.footer span {
+  display: block;
+
+  padding: 7px 0;
+}
+
+.footer span:first-child {
+  font-weight: bold;
+}
+
+footer li {
+  display: inline;
+  padding: 0 5px;
+}
+
+.footer ul li a {
+  color: white;
+}
