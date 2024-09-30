@@ -29,9 +29,14 @@ header > h1 {
 
 main > .container {
   background-color: #f6f5f3;
+}
 
-  /* debug */
-  min-height: 300px;
+iframe {
+  max-width: 100%;
+}
+
+li {
+  list-style: none;
 }
 
 /* ________ FOOTER ________ */
