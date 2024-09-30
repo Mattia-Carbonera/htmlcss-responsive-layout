@@ -47,8 +47,13 @@ main > .container {
   box-shadow: 2px 2px 2px 2px lightgray;
 }
 
+.main-image {
+  display: flex;
+  justify-content: center;
+}
+
 iframe {
-  width: 100%;
+  max-width: 100%;
 }
 
 li {
