@@ -273,13 +273,17 @@ footer li {
     display: flex;
     justify-content: space-between;
   }
-}
+  .footer-info {
+    text-align: left;
+  }
 
-.footer-info {
-  text-align: left;
-}
+  .footer ul {
+    display: flex;
+    align-items: center;
+  }
 
-.footer ul {
-  display: flex;
-  align-items: center;
+  .icon span .d-none {
+    box-shadow: 0 0 0 0 white;
+    display: inline;
+  }
 }
